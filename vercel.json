@@ -9,11 +9,11 @@
     "routes": [
       {
         "src": "/products",
-        "dest": "index.js"
+        "dest": "server.js"
       },
       {
         "src": "/(.*)",
-        "dest": "index.js"
+        "dest": "server.js"
       }
     ],
     "env": {
